@@ -17,3 +17,5 @@
 - `dist/assets/`：课程标志与教师照片。
 
 修改中文文案时同步更新 `dist/i18n.js` 对应翻译。核对中英文首页、教学安排、移动端布局和站内链接。推送 `main` 后，GitHub Actions 将 `dist/` 发布到 GitHub Pages。
+
+仓库 Settings → Pages → Source 必须设为 **GitHub Actions**，避免默认分支构建将 README 发布为首页并覆盖课程站点。

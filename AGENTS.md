@@ -10,3 +10,4 @@
 - GitHub Pages 通过 `.github/workflows/pages.yml` 发布 `dist/`，保持现有访问链接。
 - 不提交未跟踪的教学文档、会议纪要、测试材料和系统文件。
 - 文件写入使用 Bash heredoc；优先修改已有文件，避免无关重构。
+- Pages 的 Source 保持 GitHub Actions；不可同时启用默认分支构建，以免覆盖 `dist/` 部署。
